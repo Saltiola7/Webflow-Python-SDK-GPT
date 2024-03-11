@@ -6,8 +6,7 @@ If there are any issues, file issue here so I can update the GPT accordingly
 
 To access the most up to date documentation using python, use the code below to generate a markdown file.
 
-'''python
-import io
+'''pythonimport io
 import sys
 import webflow  # Make sure to import the webflow library
 old_stdout = sys.stdout
@@ -20,5 +19,4 @@ with open('webflow_help.md', 'w') as f:
     # Write the help text as a code block
     f.write('```python\n')
     f.write(help_text)
-    f.write('```\n')
-'''
+    f.write('```\n')'''
